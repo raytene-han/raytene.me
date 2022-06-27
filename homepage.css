@@ -1,0 +1,86 @@
+#home, #about, #resume {
+    text-align:center;
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.dotted {
+    border-bottom: 1px dotted lightgrey;
+}
+
+body {
+    background-color: #ffffff;
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#navbar, #contactinfo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    width: 360px;
+    padding: 16px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #afbfb7;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#photo {
+    width: 648px;
+    margin: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#aboutparagraph {
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 24px;
+    line-height: 22px;
+    background-color: #afbfb7;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#resumepdf {
+    text-align:center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 10px;
+}
+
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid lightgrey;
+}
+
+#copyright {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
